@@ -1,0 +1,57 @@
+
+.socialLinksContainer {
+  border-radius: 24px;
+  background-color: #f0f1f5;
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  display: flex;
+  min-height: 348px;
+  color: #c0cbd7;
+  padding: 79px 48px;
+ display: flex;
+  font: 600 20px Roboto, sans-serif;
+  flex-direction: column;
+}
+
+@media (max-width: 991px) {
+  .socialLinksContainer {
+    padding: 0 20px;
+  }
+}
+
+.socialLinksList {
+  display: flex;
+  min-width: 240px;
+  width: 288px;
+  flex-direction: column;
+  list-style-type: none;
+  align-items: left;
+  padding: 0;
+  margin: 0;
+}
+
+.socialLinksTitle {
+  width: 100%;
+  color: #000;
+  font-size: 20px;
+}
+
+
+
+.socialLinkItem {
+  width: 100%;
+  font-size: 19px;
+  white-space: nowrap;
+  line-height: 2;
+  padding: 7px 0 1px 0;
+}
+
+.socialLink {
+  color: #459af8;
+  text-decoration: none;
+}
+
+@media (max-width: 991px) {
+  .socialLinkItem {
+    white-space: initial;
+  }
+}

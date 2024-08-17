@@ -1,0 +1,167 @@
+
+.container {
+  max-width: 905px;
+  padding: 0px 450px;
+}
+
+.content {
+  display: flex;
+  gap: 20px;
+}
+
+@media (max-width: 991px) {
+  .content {
+    flex-direction: column;
+    align-items: stretch;
+    gap: 0;
+  }
+}
+
+.textColumn {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 81%;
+  margin-left: 0;
+}
+
+@media (max-width: 991px) {
+  .textColumn {
+    width: 100%;
+  }
+}
+
+.textContent {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-self: stretch;
+  align-items: start;
+  color: #20294c;
+  margin: auto 0;
+  padding: 260px 0px;
+  font-size: 85px;
+  font-family:  Roboto, sans-serif;
+}
+
+@media (max-width: 991px) {
+  .textContent {
+    max-width: 100%;
+    margin-top: 40px;
+    font-size: 40px;
+  }
+}
+
+.subheading {
+  color: #676b89;
+  font-size: 20px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+  text-transform: uppercase;
+}
+
+.mainHeading {
+ font-size: 80px;
+  letter-spacing: -3px;
+  margin-top: 22px;
+}
+
+@media (max-width: 991px) {
+  .mainHeading {
+    max-width: 100%;
+    font-size: 40px;
+  }
+}
+
+.highlightedText {
+  width: 186px;
+  background: linear-gradient(
+    90deg,
+    rgba(98, 72, 255, 0.2) 0%,
+    rgba(98, 72, 255, 0.05) 100%
+  );
+  border-left: 3.749px solid #6248ff;
+  margin-top: 14px;
+  min-height: 96px;
+  white-space: nowrap;
+  letter-spacing: -3px;
+ 
+  padding: 0 4px 0 7px;
+}
+
+@media (max-width: 991px) {
+  .highlightedText {
+    font-size: 40px;
+    white-space: initial;
+  }
+}
+
+.subHeading {
+  line-height: 1;
+  letter-spacing: -3px;
+  align-self: stretch;
+  margin-top: 12px;
+}
+
+@media (max-width: 991px) {
+  .subHeading {
+    max-width: 100%;
+    margin-right: 10px;
+    font-size: 40px;
+  }
+}
+
+.description {
+  font-size: 24px;
+  font-weight: 400;
+  line-height: 36px;
+  align-self: stretch;
+  margin-top: 8px;
+}
+
+@media (max-width: 991px) {
+  .description {
+    max-width: 100%;
+  }
+}
+
+.imageColumn {
+  display: flex;
+  flex-direction: column;
+  line-height: normal;
+  width: 19%;
+  margin-left: 20px;
+}
+
+@media (max-width: 991px) {
+  .imageColumn {
+    width: 100%;
+  }
+}
+
+.image {
+  aspect-ratio: 0.15;
+  object-fit: contain;
+  object-position: center;
+  width: 157px;
+  max-width: 100%;
+  flex-grow: 1;
+}
+
+@media (max-width: 991px) {
+  .image {
+    margin-top: 40px;
+  }
+}
+
+.visually-hidden {
+  position: absolute;
+  width: 1px;
+  height: 1px;
+  padding: 0;
+  margin: -1px;
+  overflow: hidden;
+  clip: rect(0, 0, 0, 0);
+  white-space: nowrap;
+  border: 0;
+}
